@@ -1,0 +1,22 @@
+.checkActive {
+    text-decoration: line-through;
+    color: rgba(129, 129, 129, 0.284);
+}
+.tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tr td {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.tr .name {
+    font-size: 20px;
+    flex-grow: 30;
+}
+.tr .close {
+    text-align: right;
+}

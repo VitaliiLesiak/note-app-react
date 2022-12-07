@@ -1,0 +1,11 @@
+.ul {
+    display: flex;
+}
+.ul li {
+    margin: 5px 20px;
+    font-size: 18px;
+}
+.block__items {
+    display: flex;
+    justify-content: center;
+}

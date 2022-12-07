@@ -1,0 +1,11 @@
+#submit {
+    margin-top: 10px;
+    width: 200px;
+}
+
+.sumbitPos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: right; */
+}

@@ -1,0 +1,8 @@
+#search {
+    max-width: 400px;
+}
+.search {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}

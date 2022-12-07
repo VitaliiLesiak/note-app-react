@@ -1,0 +1,24 @@
+.dflex {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 20px;
+}
+@media (max-width: 900px) {
+    .dflex {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 592px) {
+    .dflex {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.dflex > div {
+    word-wrap: break-word;
+    background-color: #ccc;
+    padding: 20px;
+}
+.dflex > div h3 {
+    margin-top: 0;
+}
